@@ -9,3 +9,12 @@ update each module to latest version
 ````
 npm update
 ````
+to run this aaplication run follwing commands
+````
+npm install
+npm run start
+````
+to build the project run
+````
+npm run build
+````
