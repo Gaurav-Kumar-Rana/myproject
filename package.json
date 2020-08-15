@@ -1,0 +1,49 @@
+{
+  "name": "mymovies",
+  "version": "1.0.0",
+  "description": "Play Movies online",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env=dev --open --hot",
+    "build": "webpack --env=prod",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav-Kumar-Rana/myproject.git"
+  },
+  "keywords": [
+    "mymovie"
+  ],
+  "author": "Gaurav Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurav-Kumar-Rana/myproject/issues"
+  },
+  "homepage": "https://github.com/Gaurav-Kumar-Rana/myproject#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.1",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.0.0",
+    "webpack-merge": "^5.1.1"
+  }
+}
